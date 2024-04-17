@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+body {
+  background-color: #3a5d7b;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +39,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#box {
+  background-color: #579c9a;
+  color: #333b4b;
+  font-weight: bold;
+  justify-content: space-between;
+  h2 {
+    color: #eef086;
+  }
+  button {
+    background-color: #92d38b;
+    color: #eef086;
+    font-size: 18px;
+  }
+}
+
+li {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+#nav {
+  color: #333b4b;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eef086;
+  div {
+    background-color: #92d38b;
+    align-content: center;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.selecto {
+  height: 30px;
+  font-size: 20px;
+  background-color: #3a5d7b;
+  color: #eef086;
+  outline: none;
+}
+
+.search {
+  padding-left: 10px;
+  outline: none;
+  height: 30px;
+  width: 200px;
+  color: #eef086;
+  background-color: #3a5d7b;
 }
